@@ -12,15 +12,15 @@
 <body class="bg-[var(--Almost-White)]">
 
     
-    <nav class="flex gap-15  px-8 py-3 text-[var(--Almost-Black)] sm-w-auto w-[350px] ">
+    <nav class="flex gap-15  px-8 py-3 text-[var(--Medium-Gray)] sm-w-auto w-[350px] ">
         <img src="images/logo.svg" alt="">
 
         <!--================ Desktop Nav ==================-->
 
         <ul class="sm:flex hidden relative  gap-10   justify-between items-center">
             <div class="group">
-                <div class="fdropdownToggle cursor-pointer flex gap-2 items-center  w-full">
-                    <li class="nav text-[var(--Medium-Gray)] text-sm">Features</li>
+                <div class="nav fdropdownToggle cursor-pointer flex gap-2 items-center  w-full">
+                    <li class="text-sm">Features</li>
                     <img src="images/icon-arrow-down.svg" class="arrowdown" alt="">
                     <img src="images/icon-arrow-up.svg" class="arrowup  hidden" alt="">
                 </div>
@@ -46,8 +46,8 @@
             </div>
             
 
-            <div class="cursor-pointer flex cdropdownToggle flex items-center gap-2 text-sm">
-                <li class="nav text-[var(--Medium-Gray)] text-sm">Company</li>
+            <div class="nav  cursor-pointer flex cdropdownToggle flex items-center gap-2 text-sm">
+                <li class="text-sm">Company</li>
                 <img src="images/icon-arrow-down.svg" class="carrowdown" alt="">
                 <img src="images/icon-arrow-up.svg" class="carrowup hidden" alt="">
             </div>
@@ -57,11 +57,11 @@
                 <li>Our Team</li>
                 <li>Blog</li>
             </div>
-            <li class="nav text-[var(--Medium-Gray)] text-sm cursor-pointer">Carrers</li>
-            <li class="nav text-[var(--Medium-Gray)] text-sm cursor-pointer">About</li>
+            <li class="nav text-sm cursor-pointer">Carrers</li>
+            <li class="nav  text-sm cursor-pointer">About</li>
             <div class="flex gap-7 ml-110">
-                <button class="nav px-3 py-1 rounded-xl text-sm text-[var(--Medium-Gray)] cursor-pointer" >Login</button>
-                <button class="nav border-1 px-3 py-1 rounded-xl text-sm text-[var(--Medium-Gray)] cursor-pointer ">Register</button>  
+                <button class="nav px-3 py-1 rounded-xl text-sm  cursor-pointer" >Login</button>
+                <button class="nav border-1 px-3 py-1 rounded-xl text-sm  cursor-pointer ">Register</button>  
             </div>
         </ul>
         
@@ -71,24 +71,24 @@
         <button class="menuBtn sm:hidden fixed top-5 right-5 z-50">
             <img src="images/icon-menu.svg"  class="w-6 h-6" />
         </button>
-        <div class="overlay sm:hidden hidden fixed inset-0 bg-gray-500 opacity-70  z-20 transition-opacity duration-300"></div>
+        <div class="overlay sm:hidden hidden fixed inset-0 bg-[var(--Medium-Gray)] opacity-80  z-20 transition-opacity duration-300"></div>
         <!-- Sidebar Menu -->
-        <div class="sidebar sm:hidden hidden fixed top-0 right-0 h-full w-64 bg-white z-40 transform translate-x-full transition-transform duration-300 shadow-lg">
+        <div class="sidebar sm:hidden hidden fixed top-0 right-0 h-full w-64 bg-[var(--Almost-White)] z-40 transform  translate-x-full transition-transform duration-300 shadow-lg">
             <div class="flex  items-center justify-end px-4 py-4 ">
                 <button class="closeBtn">
                 <img src="images/icon-close-menu.svg" alt="Close" class="w-5 h-5" />
                 </button>
             </div>
 
-            <ul class="flex flex-col gap-4 p-4 text-gray-800">
+            <ul class="flex flex-col gap-4 p-4 text-[var(--Medium-Gray)] ">
                 <div class="group">
-                <div class="fdropdownToggleMobile cursor-pointer gap-2 flex items-center">
-                    <li class="nav text-[var(--Medium-Gray)] text-sm">Features</li>
+                <div class="nav fdropdownToggleMobile cursor-pointer gap-2 flex items-center">
+                    <li class="text-sm">Features</li>
                     <img src="images/icon-arrow-down.svg" class="farrowdownMobile" alt="">
                     <img src="images/icon-arrow-up.svg" class="farrowupMobile hidden" alt="">
                 </div>
                 <!-- Dropdown -->
-                <div class="featuresdropdownMenuMobile flex pl-4 mt-2 hidden text-sm text-gray-600 ">
+                <div class="featuresdropdownMenuMobile flex pl-4 mt-2 hidden text-sm text-[var(--Medium-Gray)] ">
                     <div class="flex flex-col gap-2">
                         <li class="flex items-center gap-2 text-sm">
                             <img src="images/icon-todo.svg" class="w-4 h-4" alt="">
@@ -114,8 +114,8 @@
                 </div>
                 </div>
                 <div class="group">
-                    <div class="cdropdownToggleMobile cursor-pointer  flex items-center gap-2 ">
-                        <li class="nav text-[var(--Medium-Gray)] text-sm">Company</li>
+                    <div class="nav cdropdownToggleMobile cursor-pointer  flex items-center gap-2 ">
+                        <li class="text-sm">Company</li>
                         <img src="images/icon-arrow-down.svg" class="carrowdownMobile"  alt="">
                         <img src="images/icon-arrow-up.svg" class="carrowupMobile hidden"  alt="">
                     </div>
@@ -128,12 +128,12 @@
                         </div>
                     </div>
                 </div>
-                    <li class="nav text-[var(--Medium-Gray)] text-sm cursor-pointer">Careers</li>
-                    <li class="nav text-[var(--Medium-Gray)] text-sm cursor-pointer">About</li>
+                    <li class="nav text-sm cursor-pointer">Careers</li>
+                    <li class="nav  text-sm cursor-pointer">About</li>
                     
                 <div class="mt-4 flex flex-col gap-2">
-                    <button class="nav text-[var(--Medium-Gray)] cursor-pointer">Login</button>
-                    <button class="nav text-[var(--Medium-Gray)] border border-gray-800 py-1 rounded-lg cursor-pointer">Register</button>
+                    <button class="nav cursor-pointer">Login</button>
+                    <button class="nav  border border-gray-800 py-1 rounded-lg cursor-pointer">Register</button>
                 </div>
             </ul>
         </div>
@@ -143,7 +143,7 @@
 
 
     <!--========== Hero Section ============-->
-    <section class="flex sm:flex-row sm:flex-col items-center mx-auto text-[var(--Almost-Black)] sm:gap-22 sm:py-4 sm:px-40 sm:w-auto w-[350px] sm:mx-0">
+    <section class="flex sm:flex-row sm:flex-col items-center mx-auto text-[var(--Almost-Black)] sm:gap-22 sm:py-4 sm:px-40 sm:w-auto w-[375px] sm:mx-0">
         <div class="flex sm:flex-row flex-col ">
             <!-- Mobile desktop image -->
             <div class="sm:hidden block">
@@ -156,7 +156,7 @@
                 </div>
                 
                 
-                <div class="flex flex-col sm:gap-40 gap-10 sm:mx-0 mx-auto sm:w-auto w-[300px]" >
+                <div class="flex flex-col sm:gap-40 gap-10 sm:mx-0 mx-auto sm:w-auto w-full" >
                   <button class="bg-[var(--Almost-Black)] sm:py-4 py-2 sm:px-0 px-4 rounded-xl sm:w-[150px] sm:text-sm text-[12px] font-semibold text-[var(--Almost-White)] sm:mx-0 mx-auto ">Learn more</button>  
                    <div class="flex gap-6 sm:mx-0 mx-auto ">
                         <img src="images/client-databiz.svg" class="sm:w-[80px] w-[50px] sm:h-[20px] h-[9px] " alt="">

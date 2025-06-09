@@ -6,8 +6,8 @@
   const arrowup = document.querySelector(".arrowup");
   const farrowupMobile = document.querySelector(".farrowupMobile");
   const farrowdownMobile = document.querySelector(".farrowdownMobile");
-const cArrowdown = document.querySelector(".carrowdown");
-const cArrowdownMobile = document.querySelector(".carrowdownMobile");
+  const cArrowdown = document.querySelector(".carrowdown");
+  const cArrowdownMobile = document.querySelector(".carrowdownMobile");
   const cArrowup = document.querySelector(".carrowup");
   const cArrowupMobile = document.querySelector(".carrowupMobile");
   const fBtn = document.querySelector(".fdropdownToggle");
