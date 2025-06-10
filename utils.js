@@ -2,7 +2,7 @@
 const toggleDropDown = (dropdownEL, arrowUpEL, arrowDownEL) => {
 const isHidden = dropdownEL.classList.contains("hidden");
 
-    dropdownEL.classList.toggle("hidden");
+    dropdownEL.classList.toggle("hidden",!isHidden);
     arrowUpEL.classList.toggle("hidden", !isHidden);
     arrowDownEL.classList.toggle("hidden", isHidden);
 };
